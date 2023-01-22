@@ -1,5 +1,7 @@
 # AWS SAM CLI Unzip Bug PoC
 
+Tracked here: https://github.com/aws/aws-sam-cli/issues/4605
+
 ## Reproduce
 
 1. `~$ sam build --beta-features --hook-name terraform`
