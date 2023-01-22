@@ -2,9 +2,9 @@
 
 ## Reproduce
 
-1. ~$ sam build --beta-features --hook-name terraform
-2. ~$ sam local start-lambda --beta-features --hook-name terraform
-3. ~$ sam local invoke --beta-features --hook-name terraform -e events/example.json
+1. `~$ sam build --beta-features --hook-name terraform`
+2. `~$ sam local start-lambda --beta-features --hook-name terraform`
+3. `~$ sam local invoke --beta-features --hook-name terraform -e events/example.json`
 
 Now, you will experience an error like this:
 ```
